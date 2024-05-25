@@ -108,24 +108,39 @@ export default function Home() {
                                 Partnerships
                             </PageTitle>
                             <div className="grid scroll-m-24 gap-8 grid-cols-1 max-w-4xl mx-auto mt-24 md:grid-cols-3 items-center">
-                                <Image
-                                    src="/icphubpt.png"
-                                    alt="ICP Hub PT"
-                                    width={200}
-                                    height={200}
-                                />
-                                <Image
-                                    src="/lunarstrategy.png"
-                                    alt="Lunar Strategy"
-                                    width={200}
-                                    height={200}
-                                />
-                                <Image
-                                    src="/bitfinityevm.png"
-                                    alt="Bitfinity EVM"
-                                    width={200}
-                                    height={200}
-                                />
+                                <a
+                                    href="https://twitter.com/icphub_PT"
+                                    target="_blank"
+                                >
+                                    <Image
+                                        src="/icphubpt.png"
+                                        alt="ICP Hub PT"
+                                        width={200}
+                                        height={200}
+                                    />
+                                </a>
+                                <a
+                                    href="https://www.lunarstrategy.com/"
+                                    target="_blank"
+                                >
+                                    <Image
+                                        src="/lunarstrategy.png"
+                                        alt="Lunar Strategy"
+                                        width={200}
+                                        height={200}
+                                    />
+                                </a>
+                                <a
+                                    href="https://bitfinity.network/"
+                                    target="_blank"
+                                >
+                                    <Image
+                                        src="/bitfinityevm.png"
+                                        alt="Bitfinity EVM"
+                                        width={200}
+                                        height={200}
+                                    />
+                                </a>
                             </div>
                         </SectionContainer>
                     </MotionBTTContainer>
