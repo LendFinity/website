@@ -5,31 +5,27 @@ import { v4 as uuid } from "uuid";
 const ColumnData = [
     {
         id: uuid(),
-        title: "Emily J.",
-        icon: "carbon:user-avatar-filled-alt",
-        content:
-            "NutriPlan has revolutionized my meal planning and nutrition journey. With its intuitive Notion template, I can effortlessly plan my meals, track my nutrition, and stay on top of my health goals. It's truly a game-changer!"
+        title: "March 2024",
+        icon: "icon-park-outline:one-key",
+        content: "Build on ICP Portugal Hackathon Win"
     },
     {
         id: uuid(),
-        title: "Jason F.",
-        icon: "carbon:user-avatar-filled-alt",
-        content:
-            "I've tried various meal planning tools, but NutriPlan stands out from the rest. The customizable layouts and seamless recipe integration make it a breeze to create delicious and healthy meals. It's become an essential part of my wellness routine."
+        title: "April 2024",
+        icon: "icon-park-outline:two-key",
+        content: "MVP and First Partnerships"
     },
     {
         id: uuid(),
-        title: "Miguel J.",
-        icon: "carbon:user-avatar-filled-alt",
-        content:
-            "NutriPlan has made meal planning and tracking nutrition so much easier and enjoyable. The comprehensive features and user-friendly interface have helped me stay on track with my health goals. I highly recommend it to anyone looking for a convenient and effective solution."
+        title: "May 2024",
+        icon: "icon-park-outline:three-key",
+        content: "Production-ready dApp"
     },
     {
         id: uuid(),
-        title: "Kim L.",
-        icon: "carbon:user-avatar-filled-alt",
-        content:
-            "I can't imagine my nutrition journey without NutriPlan. It has simplified the way I plan my meals and track my progress. The ability to customize layouts and easily integrate recipes has made healthy eating a breeze. It's been a true lifesaver!"
+        title: "June 2024",
+        icon: "icon-park-outline:four-key",
+        content: "Mainnet Launch"
     }
 ];
 
@@ -47,28 +43,6 @@ export const Columns = () => {
                         {item.title}
                     </h3>
                     <p>{item.content}</p>
-                    <o className="flex">
-                        <Icon
-                            icon="solar:star-bold"
-                            className="h-10 mr-1 text-secondary-500"
-                        />
-                        <Icon
-                            icon="solar:star-bold"
-                            className="h-10 mr-1 text-secondary-500"
-                        />
-                        <Icon
-                            icon="solar:star-bold"
-                            className="h-10 mr-1 text-secondary-500"
-                        />
-                        <Icon
-                            icon="solar:star-bold"
-                            className="h-10 mr-1 text-secondary-500"
-                        />
-                        <Icon
-                            icon="solar:star-bold"
-                            className="h-10 mr-1 text-secondary-500"
-                        />
-                    </o>
                 </div>
             ))}
         </SectionContainer>

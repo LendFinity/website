@@ -1,12 +1,12 @@
 {
-    "name": "nutritrack",
+    "name": "lendfinity",
     "version": "1.1.0",
-    "description": "NutriTrack - A customizable landing page theme built with AstroJS and TailwindCSS, specifically designed for Notion creators.",
+    "description": "Lendfinity - Decentralized Lending Protocol on Bitfinity",
     "main": "index.js",
     "private": true,
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/christian-luntok/nutritrack.git"
+        "url": "git+https://github.com/lendfinity/website.git"
     },
     "keywords": [
         "next",
@@ -18,7 +18,7 @@
         "tailwind"
     ],
     "author": "chrstnl",
-    "homepage": "https://chrstnl.com/",
+    "homepage": "https://lendfinity.xyz/",
     "scripts": {
         "dev": "next dev",
         "build": "next build",

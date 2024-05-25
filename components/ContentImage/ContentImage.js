@@ -6,19 +6,27 @@ import { v4 as uuid } from "uuid";
 const ContentImageData = [
     {
         id: uuid(),
-        title: "Effortless Planning",
+        title: "Passive Income",
         content:
-            "Say goodbye to meal planning stress! With NutriTrack, planning your meals becomes a breeze. Our user-friendly Notion template lets you create customized daily or weekly meal plans effortlessly. Enjoy a balanced and nutritious diet without the hassle.",
+            "You can lend your assets (e.g. BRC-20s, Runes, ERC-20s, ICRC-2s, etc) to borrowers through Lendfinity's lending pool. As the lender, you earn interest on your deposited assets, providing a passive income stream.",
         align: "right",
-        image: "/features1.png"
+        image: "/growth.png"
     },
     {
         id: uuid(),
-        title: "Shopping List",
+        title: "Leverage Trading",
         content:
-            "We've got your grocery shopping covered! NutriTrack includes a handy shopping list feature. As you plan your meals, the template automatically generates a comprehensive shopping list. No more forgotten items or aimless wandering in the supermarket. Shopping for healthy ingredients has never been easier!",
-        align: "left",
-        image: "/features2.png"
+            "Lendfinity allows users to engage in leverage trading by depositing collateral, such as ckBTC, to borrow other assets. The borrowed assets can be used to purchase more of the same or different cryptocurrencies, increasing the user's market exposure. This process can be repeated by re-depositing the newly acquired assets as additional collateral to borrow even more.",
+        align: "right",
+        image: "/muscle.png"
+    },
+    {
+        id: uuid(),
+        title: "Automatic Liquidation",
+        content:
+            "By leveraging ICP's infrastructure, which Bitfinity is built on top of, we've automated our protocol, eliminating the need for manual liquidators. This innovation reduces maintenance costs, resulting in lower fees for our users.",
+        align: "right",
+        image: "/robot.png"
     }
 ];
 
@@ -29,20 +37,19 @@ export const ContentImage = () => {
                 <div
                     id={item.id}
                     key={item.id}
-                    className="process-item--container grid md:grid-cols-2 gap-y-8"
+                    className="process-item--container grid md:grid-cols-2 gap-y-8 items-center"
                 >
                     <div
-                        className={`process-item--image rounded-3xl ${
+                        className={`flex justify-center process-item--image rounded-3xl ${
                             item.align === "left" ? "md:order-1" : ""
                         }`}
                     >
                         <Image
                             src={item.image}
-                            width={512}
-                            height={512}
+                            width={160}
+                            height={160}
                             objectFit="cover"
                             alt="Process Banner 1"
-                            className="drop-shadow-xl w-full offset-y-0 offset-x-8 blur-16"
                         />
                     </div>
                     <div

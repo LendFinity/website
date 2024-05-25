@@ -16,7 +16,7 @@ export const Header = () => {
                     <h1 className="logo mb-0">
                         <Link href="/">
                             <Image
-                                src="/nutritrack.svg"
+                                src="/lendfinity.svg"
                                 alt="logo"
                                 className="h-6 w-auto"
                                 height="24"
@@ -31,10 +31,11 @@ export const Header = () => {
                     <ButtonGroup className="hidden md:block">
                         <a
                             role="button"
-                            href="https://github.com/christian-luntok/nutritrack"
+                            href="https://app.lendfinity.xyz"
+                            target="_blank"
                             className="btn btn--secondary ml-4"
                         >
-                            Get Template
+                            Launch App
                             <Icon icon="material-symbols:arrow-forward-rounded" />
                         </a>
                     </ButtonGroup>
