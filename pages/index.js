@@ -23,7 +23,7 @@ export default function Home() {
                 title="Lendfinity - Decentralized Lending Protocol on Bitfinity"
                 description="Lendfinity is an Open Source Protocol to create Non-Custodial Liquidity Markets to earn interest on supplying and borrowing assets with a variable or stable interest rate. The protocol is designed for easy integration into your products and services."
             />
-            <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
+            <div className="main-wrapper bg-[#222222] relative z-10 pb-20 pt-20 text-white">
                 <HomeBanner />
                 <SectionContainer className="components--container wrap wrap-px grid gap-8 sm:gap-24">
                     <MotionBTTContainer
@@ -45,16 +45,16 @@ export default function Home() {
                             </Content>
                             <CardGroup className="grid scroll-m-24 gap-8 grid-cols-1 max-w-4xl mx-auto mt-24 md:grid-cols-3">
                                 <Card className="col-span-1 text-primary-900">
-                                    <CardBody className="w-full bg-white-600/20 p-12">
-                                        <CardHeader className="!text-black !text-2xl !font-bold">
+                                    <CardBody className="w-full bg-black-600/20 p-12">
+                                        <CardHeader className="!text-white !text-2xl !font-bold">
                                             $30B
                                         </CardHeader>
                                         <p>TVL in Lending Protocols</p>
                                     </CardBody>
                                 </Card>
                                 <Card className="col-span-1 text-primary-900">
-                                    <CardBody className="w-full bg-white-600/20 p-12">
-                                        <CardHeader className="!text-black !text-2xl !font-bold">
+                                    <CardBody className="w-full bg-black-600/20 p-12">
+                                        <CardHeader className="!text-white !text-2xl !font-bold">
                                             1%
                                         </CardHeader>
                                         <p>
@@ -65,8 +65,8 @@ export default function Home() {
                                     </CardBody>
                                 </Card>
                                 <Card className="col-span-1 text-primary-900">
-                                    <CardBody className="w-full bg-white-600/20 p-12">
-                                        <CardHeader className="!text-black !text-2xl !font-bold">
+                                    <CardBody className="w-full bg-black-600/20 p-12">
+                                        <CardHeader className="!text-white !text-2xl !font-bold">
                                             0
                                         </CardHeader>
                                         <p>Lending Protocols on Bitfinity</p>

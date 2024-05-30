@@ -8,7 +8,7 @@
 
 @layer components {
     .card {
-        @apply text-black/60;
+        @apply text-white/60;
     }
     .card--container {
         @apply flex h-full flex-wrap;

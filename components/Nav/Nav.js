@@ -35,7 +35,7 @@ export const Nav = () => {
                     <span className="sr-only">Open main menu</span>
                     <Icon
                         icon="material-symbols:menu-rounded"
-                        className="h-6 w-auto text-black"
+                        className="h-6 w-auto text-white"
                     />
                 </button>
                 <div

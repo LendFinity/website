@@ -11,7 +11,7 @@
         @apply inline-flex text-sm;
     }
     .badge-group--container {
-        @apply mb-8 w-auto items-center rounded-full border border-neutral-300 bg-white px-1 py-[2px] font-medium text-badgeText inline-flex;
+        @apply mb-8 w-auto items-center rounded-full border border-neutral-300 bg-black px-1 py-[2px] font-medium text-badgeText inline-flex;
     }
     .badge-group--link {
         @apply transition-colors duration-300;

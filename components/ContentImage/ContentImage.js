@@ -57,9 +57,9 @@ export const ContentImage = () => {
                             item.align === "left"
                                 ? "md:pr-16 lg:pr-24 xl:pr-32 ml-auto"
                                 : "md:pl-16 lg:pl-24 xl:pl-32  mr-auto"
-                        } my-auto content text-black/60`}
+                        } my-auto content text-white/60`}
                     >
-                        <h3 className="mb-6 h4 md:h3 font-semibold text-black">
+                        <h3 className="mb-6 h4 md:h3 font-semibold text-white">
                             {item.title}
                         </h3>
                         <p>{item.content}</p>
