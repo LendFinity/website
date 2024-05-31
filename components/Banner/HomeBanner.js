@@ -28,6 +28,7 @@ export const HomeBanner = () => {
                                 role="button"
                                 href="https://app.lendfinity.xyz"
                                 target="_blank"
+                                rel="noreferrer"
                                 className="btn btn--secondary"
                             >
                                 Launch App

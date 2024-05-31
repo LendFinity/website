@@ -33,6 +33,7 @@ export const Header = () => {
                             role="button"
                             href="https://app.lendfinity.xyz"
                             target="_blank"
+                            rel="noreferrer"
                             className="btn btn--secondary ml-4"
                         >
                             Launch App

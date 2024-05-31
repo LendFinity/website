@@ -111,6 +111,7 @@ export default function Home() {
                                 <a
                                     href="https://twitter.com/icphub_PT"
                                     target="_blank"
+                                    rel="noreferrer"
                                 >
                                     <Image
                                         src="/icphubpt.png"
@@ -122,6 +123,7 @@ export default function Home() {
                                 <a
                                     href="https://www.lunarstrategy.com/"
                                     target="_blank"
+                                    rel="noreferrer"
                                 >
                                     <Image
                                         src="/lunarstrategy.png"
@@ -133,6 +135,7 @@ export default function Home() {
                                 <a
                                     href="https://bitfinity.network/"
                                     target="_blank"
+                                    rel="noreferrer"
                                 >
                                     <Image
                                         src="/bitfinityevm.png"

@@ -65,6 +65,7 @@ export const Footer = () => {
                                         role="button"
                                         href="https://app.lendfinity.xyz"
                                         target="_blank"
+                                        rel="noreferrer"
                                         className="btn btn--secondary"
                                     >
                                         Launch App
@@ -96,6 +97,7 @@ export const Footer = () => {
                                                                 footerItem.href
                                                             }
                                                             target="_blank"
+                                                            rel="noreferrer"
                                                         >
                                                             {footerItem.label}
                                                         </a>
