@@ -9,7 +9,7 @@ const navigation = [
         href: "https://docs.lendfinity.xyz/lendfinity-docs"
     },
     {
-        name: "Code",
+        name: "Github",
         href: "https://github.com/LendFinity"
     }
 ];
