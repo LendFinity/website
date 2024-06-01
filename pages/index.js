@@ -107,11 +107,12 @@ export default function Home() {
                             >
                                 Partnerships
                             </PageTitle>
-                            <div className="grid scroll-m-24 gap-8 grid-cols-1 max-w-4xl mx-auto mt-24 md:grid-cols-3 items-center">
+                            <div className="grid scroll-m-24 gap-8 grid-cols-1 max-w-4xl mx-auto mt-16 mb-8 md:grid-cols-3 items-center">
                                 <a
                                     href="https://twitter.com/icphub_PT"
                                     target="_blank"
                                     rel="noreferrer"
+                                    className="flex justify-center"
                                 >
                                     <Image
                                         src="/icphubpt.png"
@@ -124,6 +125,7 @@ export default function Home() {
                                     href="https://www.lunarstrategy.com/"
                                     target="_blank"
                                     rel="noreferrer"
+                                    className="flex justify-center"
                                 >
                                     <Image
                                         src="/lunarstrategy.png"
@@ -136,6 +138,7 @@ export default function Home() {
                                     href="https://bitfinity.network/"
                                     target="_blank"
                                     rel="noreferrer"
+                                    className="flex justify-center"
                                 >
                                     <Image
                                         src="/bitfinityevm.png"
