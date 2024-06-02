@@ -34,15 +34,8 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Market Opportunity
-                            </PageTitle>
-                            <Content className="text-center" alignment="center">
-                                <p>
-                                    The growing excitement about BRC20s and
-                                    Runes suggests that interest and innovation
-                                    in blockchain technology are on the rise.
-                                </p>
-                            </Content>
+                                Tap into the Bitfinity Network through our decentralized, secure dashboard                            </PageTitle>
+                            
                             <CardGroup className="grid scroll-m-24 gap-8 grid-cols-1 max-w-4xl mx-auto mt-24 md:grid-cols-3">
                                 <Card className="col-span-1 text-primary-900">
                                     <CardBody className="w-full bg-black-600/20 p-12">
@@ -78,6 +71,7 @@ export default function Home() {
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
+                        
                         <SectionContainer id="features" className="features">
                             <PageTitle
                                 className="text-center mx-auto"
@@ -88,10 +82,7 @@ export default function Home() {
                             <Content className="text-center" alignment="center">
                                 <p>
                                     Lendfinity allows you to easily borrow and
-                                    lend ICP, Bitcoin and Bitfinity tokens with
-                                    each other as collateral. Our vision is to
-                                    make Bitcoin and ICP more accessible to
-                                    everyone.
+                                    lend ICP, Bitcoin and many other Bitfinity tokens.
                                 </p>
                             </Content>
                             <ContentImage />
@@ -105,7 +96,7 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Partnerships
+                                Partners and Collaborations
                             </PageTitle>
                             <div className="grid scroll-m-24 gap-8 grid-cols-1 max-w-4xl mx-auto mt-16 mb-8 md:grid-cols-3 items-center">
                                 <a
@@ -117,8 +108,8 @@ export default function Home() {
                                     <Image
                                         src="/icphubpt.png"
                                         alt="ICP Hub PT"
-                                        width={200}
-                                        height={200}
+                                        width={100}
+                                        height={100}
                                     />
                                 </a>
                                 <a
@@ -153,15 +144,7 @@ export default function Home() {
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
-                        <SectionContainer
-                            id="testimonials"
-                            className="benefits"
-                        >
-                            <PageTitle className="" type="default">
-                                Roadmap
-                            </PageTitle>
-                            <Columns />
-                        </SectionContainer>
+
                     </MotionBTTContainer>
                 </SectionContainer>
             </div>
