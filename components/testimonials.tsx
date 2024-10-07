@@ -7,7 +7,7 @@ import ICPHubPtImg from "@/public/images/icphubpt.png";
 import LunarStrategyImg from "@/public/images/lunarstrategy.png";
 import BitfinityImg from "@/public/images/bitfinityevm.png";
 import OmnityImg from "@/public/images/omnity.svg";
-import ChapswapImg from "@/public/images/chapswap.jpg";
+import ChapswapImg from "@/public/images/chap.svg";
 
 const testimonials: { clientImg: StaticImageData; company: string; categories: number[]; content?: string }[] = [
   {
