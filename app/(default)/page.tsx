@@ -19,7 +19,7 @@ export default function Home() {
       <Metrics />
       <Workflows />
       <Testimonials />
-      {/* <Cta /> */}
+      <Cta />
     </>
   );
 }
