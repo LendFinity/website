@@ -8,32 +8,44 @@ import LunarStrategyImg from "@/public/images/lunarstrategy.png";
 import BitfinityImg from "@/public/images/bitfinityevm.png";
 import OmnityImg from "@/public/images/omnity.svg";
 import ChapswapImg from "@/public/images/chap.svg";
+import CovaultImg from "@/public/images/covault.svg";
 
-const testimonials: { clientImg: StaticImageData; company: string; categories: number[]; content?: string }[] = [
+const testimonials: { clientImg: StaticImageData; company: string; categories: number[]; href: string; content?: string }[] = [
   {
     clientImg: ICPHubPtImg,
     company: "ICP Hub Portugal",
     categories: [1, 4],
+    href: "https://www.icpportugal.com/"
   },
   {
     clientImg: LunarStrategyImg,
     company: "Lunar Strategy",
     categories: [1, 4],
+    href: "https://www.lunarstrategy.com/"
   },
   {
     clientImg: BitfinityImg,
     company: "Bitfinity",
     categories: [1, 2],
+    href: "https://bitfinity.network/"
   },
   {
     clientImg: OmnityImg,
     company: "Omnity",
     categories: [1, 3],
+    href: "https://www.omnity.network/"
   },
   {
     clientImg: ChapswapImg,
     company: "Chapswap",
     categories: [1, 3],
+    href: "https://chapswap.com/"
+  },
+  {
+    clientImg: CovaultImg,
+    company: "Covault",
+    categories: [1, 2],
+    href: "https://www.covault.xyz/"
   }
 ];
 
@@ -47,10 +59,10 @@ export default function Testimonials() {
         {/* Section header */}
         <div className="mx-auto max-w-3xl pb-12 text-center">
           <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-            Partners and collaborations
+            Partners
           </h2>
           <p className="text-lg text-indigo-200/65">
-            We work with innovative platforms and industry leaders to enhance decentralized lending, expanding possibilities across the Bitfinity ecosystem.
+            We work with innovative platforms and industry leaders to improve the ICP and Bitcoin ecosystems.
           </p>
         </div>
 
@@ -172,6 +184,7 @@ export function Testimonial({
     company?: string;
     content?: string;
     categories: number[];
+    href: string;
   };
   category: number;
   children: React.ReactNode;
@@ -180,39 +193,39 @@ export function Testimonial({
     <article
       className={`relative rounded-2xl bg-gradient-to-br from-gray-900/50 via-gray-800/25 to-gray-900/50 p-5 backdrop-blur-sm transition-opacity before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,theme(colors.gray.800),theme(colors.gray.700),theme(colors.gray.800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] ${!testimonial.categories.includes(category) ? "opacity-30" : ""}`}
     >
-      <div className="flex flex-col gap-4">
-        {testimonial.clientImg && (
-          <div>
-            <Image src={testimonial.clientImg} height={36} alt="Client logo" />
-          </div>
-        )}
-        {children && (
-          <p className="text-indigo-200/65 before:content-['“'] after:content-['”']">
-            {children}
-          </p>
-        )}
-
-        <div className="flex items-center gap-3">
-          {testimonial.img && (
-            <Image
-              className="inline-flex shrink-0 rounded-full"
-              src={testimonial.img}
-              width={36}
-              height={36}
-              alt={testimonial.name || ""}
-            />
+        <div className="flex flex-col gap-4">
+          {testimonial.clientImg && (
+            <div>
+              <Image src={testimonial.clientImg} height={36} alt="Client logo" />
+            </div>
           )}
-          <div className="text-sm font-medium text-gray-200">
-            <span>{testimonial.name}</span>
-            <a
-              className="text-indigo-200/65 transition-colors hover:text-indigo-500"
-              href="#0"
-            >
-              {testimonial.company}
-            </a>
+          {children && (
+            <p className="text-indigo-200/65 before:content-['“'] after:content-['”']">
+              {children}
+            </p>
+          )}
+
+          <div className="flex items-center gap-3">
+            {testimonial.img && (
+              <Image
+                className="inline-flex shrink-0 rounded-full"
+                src={testimonial.img}
+                width={36}
+                height={36}
+                alt={testimonial.name || ""}
+              />
+            )}
+            <div className="text-sm font-medium text-gray-200">
+              <span>{testimonial.name}</span>
+              <a
+                className="text-indigo-200/65 transition-colors hover:text-indigo-500"
+                href={testimonial.href}
+              >
+                {testimonial.company}
+              </a>
+            </div>
           </div>
         </div>
-      </div>
     </article>
   );
 }

@@ -11,11 +11,11 @@ export default function HeroHome() {
           {/* Section header */}
           <div className="pb-12 text-center md:pb-20">
             <h1
-              className="mb-4 animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-6xl"
+              className=" mb-4 animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-6xl"
               data-aos="fade-up"
             >
-              <p className="text-purple-400 mb-3 text-5xl md:text-7xl">Lendfinity</p>
-              DeFi lending
+              <p className="text-purple-400 mb-3 text-5xl md:text-7xl"></p>
+              Unlock DeFi for <span className="text-purple-400">ICP</span> and <span className="text-purple-400">Runes</span>
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
@@ -23,15 +23,14 @@ export default function HeroHome() {
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                The <span className="text-white">Decentralized</span> Lending Protocol on Bitfinity.
-
+               Lendfinity is the first lending protocol on Bitfinity.
               </p>
               <p
                 className="mb-8 text-xl text-indigo-200/65"
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                Unlocking decentralized lending for everyone.
+                {/* Unlocking decentralized lending for everyone. */}
               </p>
 
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center mt-20">

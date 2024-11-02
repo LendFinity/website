@@ -24,12 +24,10 @@ export default function Cta() {
               className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-5xl"
               data-aos="fade-up"
             >
-              Unlock the Future<br />
-              of DeFi Lending.
+              Join Us in Revolutionizing DeFi
             </h2>
             <div className="pb-4">
-              Join the waitlist to get early access to our innovative lending platform <br />
-              and stay ahead in the world of decentralized finance.
+              Be part of the next wave of DeFi. Secure your position with Lendfinity.
             </div>
 
             <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
@@ -39,7 +37,7 @@ export default function Cta() {
                 target="_blank"
                 className="mt-4 rounded-full py-3 px-8 text-lg btn-sm bg-gradient-to-t from-indigo-600 to-indigo-500 text-white"
               >
-                Join waitlist
+                Get Started
               </Link>
 
 

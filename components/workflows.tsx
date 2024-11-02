@@ -44,12 +44,12 @@ export default function Workflows() {
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,theme(colors.gray.700/.15),theme(colors.gray.700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                       <span className="bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                        Passive Income
+                        Yield
                       </span>
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                    You can lend your assets (e.g. BRC-20s, Runes, ERC-20s, ICRC-2s, etc) to borrowers through Lendfinity's lending pool. As the lender, you earn interest on your deposited assets, providing a passive income stream.
+                    Earn yield on your favourite ICRC-1, Runes and BRC-20 tokens.
                   </p>
                 </div>
               </div>
@@ -74,14 +74,12 @@ export default function Workflows() {
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,theme(colors.gray.700/.15),theme(colors.gray.700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                       <span className="bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                        Leverage Trading
+                        Borrow Assets
                       </span>
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                    Lendfinity allows users to engage in leverage trading by depositing collateral, such as ckBTC, to borrow other assets. The borrowed assets can be used to purchase more of the same or different cryptocurrencies, increasing the user's market exposure. This process can be repeated by re-depositing the newly acquired assets as additional collateral to borrow even more.
-
-
+                    Use your assets as collateral to borrow assets, even stablecoins like classic USDC or ICP-native ckUSDC.
                   </p>
                 </div>
               </div>
@@ -105,14 +103,12 @@ export default function Workflows() {
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,theme(colors.gray.700/.15),theme(colors.gray.700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                       <span className="bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                        Automatic Liquidation
+                        Flash Loans
                       </span>
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                    By leveraging ICP's infrastructure, which Bitfinity is built on top of, we've automated our protocol, eliminating the need for manual liquidators. This innovation reduces maintenance costs, resulting in lower fees for our users.
-
-
+                    Borrow large amounts of money, as long as you return it within one transaction
                   </p>
                 </div>
               </div>
