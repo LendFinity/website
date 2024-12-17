@@ -33,11 +33,11 @@ export default function Cta() {
             <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
 
               <Link
-                href="https://tally.so/r/mOJbM7"
+                href="https://app.lendfinity.xyz"
                 target="_blank"
                 className="mt-4 rounded-full py-3 px-8 text-lg btn-sm bg-gradient-to-t from-indigo-600 to-indigo-500 text-white"
               >
-                Get Started
+                Go to app <span className="ml-2">→</span>
               </Link>
 
 
