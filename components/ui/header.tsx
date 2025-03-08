@@ -31,11 +31,11 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="https://airdrop.lendfinity.xyz"
+                href="https://app.lendfinity.xyz"
                 target="_blank"
-                className="rounded-full py-2 px-3 text-sm sm:text-lg sm:py-3 sm:px-4 text-lg btn-sm bg-gradient-to-t from-purple-600 to-purple-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%]"
+                className="rounded-full py-2 px-3 text-sm sm:text-lg sm:py-2 sm:px-4 text-lg btn-sm bg-gradient-to-t from-purple-600 to-purple-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%]"
               >
-                Airdrop
+                App
               </Link>
             </li>
           </ul>
